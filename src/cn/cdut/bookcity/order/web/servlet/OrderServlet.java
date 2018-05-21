@@ -28,9 +28,9 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class OrderServlet extends BaseServlet {
 
-	private static final OrderServiceImpl orderService = new OrderServiceImpl();
+	private static OrderServiceImpl orderService = new OrderServiceImpl();
 	
-	private static final CartServiceImpl cartService = new CartServiceImpl();
+	private static CartServiceImpl cartService = new CartServiceImpl();
 	
 	/**
 	 * 从页面得到当前页数,若没有默认为第一页

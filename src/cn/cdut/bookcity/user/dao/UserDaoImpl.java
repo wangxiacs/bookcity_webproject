@@ -14,7 +14,7 @@ import cn.cdut.util.jdbc.TxQueryRunner;
  */
 public class UserDaoImpl {
 	
-	private static final TxQueryRunner qr = new TxQueryRunner();
+	private static TxQueryRunner qr = new TxQueryRunner();
 	
 	/**
 	 * 新增用户

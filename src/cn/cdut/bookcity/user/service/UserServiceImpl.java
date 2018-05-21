@@ -23,7 +23,7 @@ import cn.cdut.util.mail.MailUtils;
  * @date 2018年4月19日 下午6:46:15
  */
 public class UserServiceImpl {
-	private static final UserDaoImpl userDao = new UserDaoImpl();
+	private static UserDaoImpl userDao = new UserDaoImpl();
 	
 	/**
 	 * 注册添加用户

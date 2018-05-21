@@ -35,7 +35,7 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class BgAddBookServlet extends HttpServlet {
 	
-	private static final BookServiceImpl bookService = new BookServiceImpl();
+	private static BookServiceImpl bookService = new BookServiceImpl();
 
 	/**
 	 * 当form表单的属性enctype=multipart/form-data时,均采用

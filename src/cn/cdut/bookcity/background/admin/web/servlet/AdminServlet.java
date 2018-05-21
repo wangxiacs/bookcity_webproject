@@ -18,7 +18,7 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class AdminServlet extends BaseServlet {
 	
-	private static final AdminServiceImpl adminService = new AdminServiceImpl();
+	private static AdminServiceImpl adminService = new AdminServiceImpl();
 	
 	/**
 	 * 管理员登陆功能 

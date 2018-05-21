@@ -14,7 +14,7 @@ import cn.cdut.util.jdbc.TxQueryRunner;
  */
 public class AdminDaoImpl {
 
-	private static final TxQueryRunner qr = new TxQueryRunner();
+	private static TxQueryRunner qr = new TxQueryRunner();
 	
 	/**
 	 * 根据登陆名和密码进行查询

@@ -22,7 +22,7 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class CartServlet extends BaseServlet {
 	
-	private static final CartServiceImpl cartService = new CartServiceImpl();
+	private static CartServiceImpl cartService = new CartServiceImpl();
 	
 	/**
 	 * 显示当前用户的购物车功能 

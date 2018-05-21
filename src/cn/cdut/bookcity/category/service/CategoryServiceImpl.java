@@ -14,7 +14,7 @@ import cn.cdut.util.jdbc.JdbcUtils;
  */
 public class CategoryServiceImpl {
 
-	private static final CategoryDaoImpl categoryDao = new CategoryDaoImpl();
+	private static CategoryDaoImpl categoryDao = new CategoryDaoImpl();
 	
 	/**
 	 * 返回所有分类的服务,一级分类中含有二级分类

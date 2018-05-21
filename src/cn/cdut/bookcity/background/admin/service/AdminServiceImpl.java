@@ -12,7 +12,7 @@ import cn.cdut.bookcity.background.admin.domain.Admin;
  */
 public class AdminServiceImpl {
 	
-	private static final AdminDaoImpl adminDao = new AdminDaoImpl();
+	private static AdminDaoImpl adminDao = new AdminDaoImpl();
 	
 	/**
 	 * 用户登陆服务

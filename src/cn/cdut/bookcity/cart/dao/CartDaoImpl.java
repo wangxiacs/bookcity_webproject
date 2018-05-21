@@ -22,7 +22,7 @@ import cn.cdut.util.jdbc.TxQueryRunner;
  */
 public class CartDaoImpl {
 
-	private static final TxQueryRunner qr = new TxQueryRunner();
+	private static TxQueryRunner qr = new TxQueryRunner();
 	
 	/**
 	 * 将map中的数据映射到CartItem实体类中 

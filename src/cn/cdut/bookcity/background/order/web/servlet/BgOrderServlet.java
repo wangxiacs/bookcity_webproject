@@ -18,7 +18,7 @@ import cn.cdut.servlet.BaseServlet;
  */
 public class BgOrderServlet extends BaseServlet {
 	
-	private static final OrderServiceImpl orderService = new OrderServiceImpl();
+	private static OrderServiceImpl orderService = new OrderServiceImpl();
 	
 	/**
 	 * 得到当前查询的页数 

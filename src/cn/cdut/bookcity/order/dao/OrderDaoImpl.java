@@ -26,7 +26,7 @@ import cn.cdut.util.jdbc.TxQueryRunner;
  */
 public class OrderDaoImpl {
 	
-	private static final TxQueryRunner qr = new TxQueryRunner();
+	private static TxQueryRunner qr = new TxQueryRunner();
 	
 	/**
 	 * 通用查询方法,多条件组合查询，所有条件都需满足

@@ -14,7 +14,7 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class CartServiceImpl {
 
-	private static final CartDaoImpl cartDao = new CartDaoImpl();
+	private static CartDaoImpl cartDao = new CartDaoImpl();
 	
 	/**
 	 * 通过用户查找购物车条目信息 

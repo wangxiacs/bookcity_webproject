@@ -19,7 +19,7 @@ import cn.cdut.servlet.BaseServlet;
 @SuppressWarnings("serial")
 public class CategoryServlet extends BaseServlet {
 	
-	private static final CategoryServiceImpl categoryService = new CategoryServiceImpl();
+	private static CategoryServiceImpl categoryService = new CategoryServiceImpl();
 	
 	/**
 	 * 得到所有的分类,以键为categories存在request中 

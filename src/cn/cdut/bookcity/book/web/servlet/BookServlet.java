@@ -19,7 +19,7 @@ import cn.cdut.util.common.CommonUtils;
  * @date 2018年4月26日 下午10:54:02
  */
 public class BookServlet extends BaseServlet {
-	private static final BookServiceImpl bookService = new BookServiceImpl();
+	private static BookServiceImpl bookService = new BookServiceImpl();
 
 	/**
 	 * 从页面得到当前页数,若没有默认为第一页

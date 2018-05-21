@@ -14,7 +14,7 @@ import cn.cdut.util.jdbc.JdbcUtils;
  */
 public class OrderServiceImpl {
 
-	private static final OrderDaoImpl orderDao = new OrderDaoImpl();
+	private static OrderDaoImpl orderDao = new OrderDaoImpl();
 
 	/**
 	 * 按用户查询所有订单,并分页显示 

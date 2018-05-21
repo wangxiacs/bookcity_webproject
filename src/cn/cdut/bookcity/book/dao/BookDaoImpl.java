@@ -25,7 +25,7 @@ import cn.cdut.util.jdbc.TxQueryRunner;
  */
 public class BookDaoImpl {
 	
-	private static final TxQueryRunner qr = new TxQueryRunner();
+	private static TxQueryRunner qr = new TxQueryRunner();
 	
 	/**
 	 * 将Map集合中的数据封装到BookBean中 

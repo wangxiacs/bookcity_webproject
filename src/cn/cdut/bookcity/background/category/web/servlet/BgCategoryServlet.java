@@ -20,8 +20,8 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class BgCategoryServlet extends BaseServlet {
 
-	private static final CategoryServiceImpl categoryService = new CategoryServiceImpl();
-	private static final BookServiceImpl bookService = new BookServiceImpl();
+	private static CategoryServiceImpl categoryService = new CategoryServiceImpl();
+	private static BookServiceImpl bookService = new BookServiceImpl();
 	
 	/**
 	 * 显示所有分类 

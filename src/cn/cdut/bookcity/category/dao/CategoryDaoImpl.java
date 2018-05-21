@@ -21,7 +21,7 @@ import cn.cdut.util.jdbc.TxQueryRunner;
  */
 public class CategoryDaoImpl {
 	
-	private static final TxQueryRunner qr = new TxQueryRunner();
+	private static TxQueryRunner qr = new TxQueryRunner();
 	
 	/**
 	 * 从Map中封装数据到CategoryBean中 

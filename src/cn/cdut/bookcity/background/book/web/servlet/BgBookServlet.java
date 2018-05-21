@@ -28,8 +28,8 @@ import cn.cdut.util.common.CommonUtils;
  */
 public class BgBookServlet extends BaseServlet{
 
-	private static final BookServiceImpl bookService = new BookServiceImpl();
-	private static final CategoryServiceImpl categoryService = new CategoryServiceImpl();
+	private static BookServiceImpl bookService = new BookServiceImpl();
+	private static CategoryServiceImpl categoryService = new CategoryServiceImpl();
 	
 	/**
 	 * 在图书管理的左侧显示所有分类

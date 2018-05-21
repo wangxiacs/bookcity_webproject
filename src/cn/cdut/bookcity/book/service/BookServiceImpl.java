@@ -13,7 +13,7 @@ import cn.cdut.bookcity.pager.PageBean;
  * @date 2018年4月26日 下午11:03:36
  */
 public class BookServiceImpl {
-	private static final BookDaoImpl bookDao  = new BookDaoImpl();
+	private static BookDaoImpl bookDao  = new BookDaoImpl();
 	
 	/**
 	 * 通过分类查询服务
